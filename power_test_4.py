@@ -65,7 +65,7 @@ mse_test_nn = np.mean(np.power(Y_test - np.mean(Y_test), 2))
 
 # Fit a shallow neural network
 deg = 1/3
-mult = 3/4
+mult = 3/5
 optimizer = 'sgd'
 epochs_nn = 200
 early_stopping = False
