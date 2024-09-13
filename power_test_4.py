@@ -44,7 +44,7 @@ plt.show()
 ##### Tag = 0
 """
 
-gamma = 0.5
+gamma = 0.9
 batches = 20
 tag = 0
 n_train = np.floor(nN * gamma).astype(int)
