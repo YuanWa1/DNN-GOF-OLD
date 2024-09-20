@@ -163,8 +163,7 @@ plt.ylabel('y')
 plt.legend()
 plt.show()
 
-#result0 = [p_lm[1],p_nn, p_dnn, p_dnn2]
-result0 = [p_dnn2]
+result0 = [p_lm[1],p_nn, p_dnn, p_dnn2]
 """##### Tag = 1"""
 
 tag = 1
@@ -258,8 +257,7 @@ plt.ylabel('y')
 plt.legend()
 plt.show()
 
-#result1 = [p_lm[1],p_nn, p_dnn, p_dnn2]
-result1 = [p_dnn2]
+result1 = [p_lm[1],p_nn, p_dnn, p_dnn2]
 print(result0)
 print(result1)
 
