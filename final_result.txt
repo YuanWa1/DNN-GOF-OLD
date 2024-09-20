@@ -1,0 +1,60 @@
+result_cos_tag0_18_200.csv:
+{'p_lm': 0.042, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_cos_tag0_18_500.csv:
+{'p_lm': 0.051000000000000004, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_cos_tag0_18_1000.csv:
+{'p_lm': 0.047, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_cos_tag0_18_2000.csv:
+{'p_lm': 0.12, 'p_nn': 0.035, 'p_dnn': 0.036000000000000004, 'p_dnn2': 0.036000000000000004}
+
+result_cos_tag0_18_5000.csv:
+{'p_lm': 0.045, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_cos_tag1_18_200.csv:
+{'p_lm': 0.044, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_cos_tag1_18_500.csv:
+{'p_lm': 0.052000000000000005, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_cos_tag1_18_1000.csv:
+{'p_lm': 0.07100000000000001, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_cos_tag1_18_2000.csv:
+{'p_lm': 0.309, 'p_nn': 0.796, 'p_dnn': 0.263, 'p_dnn2': 0.272}
+
+result_cos_tag1_18_5000.csv:
+{'p_lm': 0.713, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_square_tag0_18_200.csv:
+{'p_lm': 0.039, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_square_tag0_18_500.csv:
+{'p_lm': 0.048, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_square_tag0_18_1000.csv:
+{'p_lm': 0.049, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_square_tag0_18_2000.csv:
+{'p_lm': 0.105, 'p_nn': 0.092, 'p_dnn': 0.091, 'p_dnn2': 0.09}
+
+result_square_tag0_18_5000.csv:
+{'p_lm': 0.063, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_square_tag1_18_200.csv:
+{'p_lm': 0.04, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_square_tag1_18_500.csv:
+{'p_lm': 0.051000000000000004, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_square_tag1_18_1000.csv:
+{'p_lm': 0.08600000000000001, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_square_tag1_18_2000.csv:
+{'p_lm': 0.116, 'p_nn': 0.376, 'p_dnn': 0.20800000000000002, 'p_dnn2': 0.263}
+
+result_square_tag1_18_5000.csv:
+{'p_lm': 0.321, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
