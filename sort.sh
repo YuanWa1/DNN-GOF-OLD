@@ -1,5 +1,5 @@
 #!/bin/bash
-
+source myenv/bin/activate
 sorted_files=$(ls *.csv | sort -V)
 
 for file in $sorted_files; do
