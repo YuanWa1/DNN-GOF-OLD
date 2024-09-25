@@ -8,7 +8,7 @@ max_hidden_unit = 18
 """Generate the data and provide the scatter plots for each pair of $(X_i,Y)$, $i=0,1,\ldots,5$. Note here $X_0$ does not involved in the underlying model."""
 nN = int(sys.argv[1])
 X_mat, Y_true = generate_data(nN = nN)
-sigma = 0.9
+sigma = 0.5
 random_err = np.random.normal(loc = 0, scale = sigma, size = nN).reshape(Y_true.shape)
 Y = Y_true + random_err
 
