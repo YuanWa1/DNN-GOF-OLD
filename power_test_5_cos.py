@@ -12,7 +12,7 @@ max_hidden_unit = 18
 # nN = int(sys.argv[2])
 nN = int(sys.argv[1])
 X_mat, Y_true = generate_data(nN = nN)
-sigma = 0.9
+sigma = 0.5
 random_err = np.random.normal(loc = 0, scale = sigma, size = nN).reshape(Y_true.shape)
 Y = Y_true + random_err
 
