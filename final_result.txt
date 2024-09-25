@@ -1,0 +1,12 @@
+result_cos_tag0_18_2000.csv:
+{'p_lm': 0.053, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_cos_tag1_18_2000.csv:
+{'p_lm': 0.8290000000000001, 'p_nn': 0.0, 'p_dnn': 0.0, 'p_dnn2': 0.0}
+
+result_square_tag0_18_2000.csv:
+{'p_lm': 0.047, 'p_nn': 0.047, 'p_dnn': 0.047, 'p_dnn2': 0.048}
+
+result_square_tag1_18_2000.csv:
+{'p_lm': 0.06, 'p_nn': 0.999, 'p_dnn': 0.999, 'p_dnn2': 0.799}
+
