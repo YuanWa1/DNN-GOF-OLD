@@ -16,18 +16,13 @@ import tensorflow as tf
 nN = int(sys.argv[1])
 max_hidden_unit = 18
 
-x_train, y_train = generate_data(nN=nN)
+x_train, y_true = generate_data(nN=nN)
+sigma = 0.9
+random_err = np.random.normal(loc = 0, scale = sigma, size = nN).reshape(y_true.shape)
+y_train = y_true + random_err
 y_train = y_train.T
 x_train = x_train.T
 x_train, x_test, y_train, y_test = train_test_split(x_train, y_train, test_size=0.2)
-
-# (x_train, y_train), (_, _) = tf.keras.datasets.boston_housing.load_data(path="boston_housing.npz", 
-#                                                                                   test_split=0.1)
-# y_train, y_test = y_train[:,np.newaxis], y_test[:,np.newaxis]
-
-# from sklearn import preprocessing
-# scaler = preprocessing.MinMaxScaler()
-# x_train = scaler.fit_transform(x_train)
 
 n, d = x_train.shape
 print('num of samples: %d, dim: %d' %(n, d))
