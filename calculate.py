@@ -13,7 +13,7 @@ def count(column_name,df,final_count):
 def main():
     print(f"Processing file: {sys.argv[1]}")
     #skip_rows = list(range(0,2)) + list(range(4,1004))
-    df = pd.read_csv(sys.argv[1],skiprows= skip_rows)
+    df = pd.read_csv(sys.argv[1],skiprows= 2)
 
     column_names = df.columns
     final_count = {}
