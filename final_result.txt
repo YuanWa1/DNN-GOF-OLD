@@ -1,0 +1,24 @@
+output_for_200.csv:
+{'P_value_shallow_0': 0.154, 'P_value_shallow_1': 0.177, 'P_value_dnn1_0': 0.151, 'P_value_dnn1_1': 0.186, 'P_value_dnn2_0': 0.151, 'P_value_dnn2_1': 0.182}
+
+output_for_200_sq.csv:
+{'P_value_shallow_0': 0.129, 'P_value_shallow_1': 0.20700000000000002, 'P_value_dnn1_0': 0.133, 'P_value_dnn1_1': 0.202, 'P_value_dnn2_0': 0.128, 'P_value_dnn2_1': 0.20500000000000002}
+
+output_for_500.csv:
+{'P_value_shallow_0': 0.094, 'P_value_shallow_1': 0.158, 'P_value_dnn1_0': 0.093, 'P_value_dnn1_1': 0.166, 'P_value_dnn2_0': 0.08600000000000001, 'P_value_dnn2_1': 0.14}
+
+output_for_500_sq.csv:
+{'P_value_shallow_0': 0.079, 'P_value_shallow_1': 0.2, 'P_value_dnn1_0': 0.076, 'P_value_dnn1_1': 0.192, 'P_value_dnn2_0': 0.059000000000000004, 'P_value_dnn2_1': 0.184}
+
+output_for_1000.csv:
+{'P_value_shallow_0': 0.08, 'P_value_shallow_1': 0.147, 'P_value_dnn1_0': 0.113, 'P_value_dnn1_1': 0.218, 'P_value_dnn2_0': 0.107, 'P_value_dnn2_1': 0.163}
+
+output_for_1000_sq.csv:
+{'P_value_shallow_0': 0.121, 'P_value_shallow_1': 0.432, 'P_value_dnn1_0': 0.161, 'P_value_dnn1_1': 0.504, 'P_value_dnn2_0': 0.145, 'P_value_dnn2_1': 0.481}
+
+output_for_2000.csv:
+{'P_value_shallow_0': 0.077, 'P_value_shallow_1': 0.098, 'P_value_dnn1_0': 0.068, 'P_value_dnn1_1': 0.121, 'P_value_dnn2_0': 0.092, 'P_value_dnn2_1': 0.117}
+
+output_for_2000_sq.csv:
+{'P_value_shallow_0': 0.21, 'P_value_shallow_1': 0.835, 'P_value_dnn1_0': 0.203, 'P_value_dnn1_1': 0.852, 'P_value_dnn2_0': 0.2, 'P_value_dnn2_1': 0.868}
+

@@ -13,9 +13,22 @@ def count(column_name,df,final_count):
 def main():
     print(f"Processing file: {sys.argv[1]}")
     #skip_rows = list(range(0,2)) + list(range(4,1004))
-    df = pd.read_csv(sys.argv[1],skiprows= skip_rows)
-
+    df = pd.read_csv(sys.argv[1],skiprows= 0)
+    
+    df[['P_value_shallow_0', 'P_value_shallow_1']] = df['P_value_shallow'].str.split(' ', expand=True)
+    df[['P_value_dnn1_0', 'P_value_dnn1_1']] = df['P_value_dnn1'].str.split(' ', expand=True)
+    df[['P_value_dnn2_0', 'P_value_dnn2_1']] = df['P_value_dnn2'].str.split(' ', expand=True)
+    
+    df[['P_value_shallow_0', 'P_value_shallow_1', 'P_value_dnn1_0', 'P_value_dnn1_1', 'P_value_dnn2_0', 'P_value_dnn2_1']] \
+        = df[['P_value_shallow_0', 'P_value_shallow_1', 'P_value_dnn1_0', 'P_value_dnn1_1', 'P_value_dnn2_0', 'P_value_dnn2_1']].astype(float)
+    
+    df.drop(['P_value_shallow', 'P_value_dnn1', 'P_value_dnn2'], axis=1, inplace=True)
+    
+    # new_filename = sys.argv[1].split('.')[0] + '_updated.csv'
+    # df.to_csv(new_filename, index=False)
+    
     column_names = df.columns
+    
     final_count = {}
     for column in column_names:
         check(column,df=df)
@@ -23,12 +36,6 @@ def main():
     for column in column_names:
         count(column,df=df,final_count=final_count)
     
-    # df = df._append(final_count, ignore_index=True)
-    # print(df)
-    # loc = df.columns.get_loc('p_lm_check')
-    # df.insert(loc, '', np.nan)
-    # new_filename = sys.argv[1].split('.')[0] + '_updated.csv'
-    # df.to_csv(new_filename, index=False, na_rep='')
     if not os.path.exists('final_result.txt'):
         f = open("final_result.txt",'x')
     f = open("final_result.txt",'a')
